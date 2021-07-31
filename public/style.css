@@ -1,0 +1,62 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.bgground{
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0, 0, 0, 0.4)),url("http://hd.wallpaperswide.com/thumbs/yoga-t2.jpg");
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+}
+.content{
+  width: 60vw;
+  height: 60vh;
+  position: relative;
+  margin: 10% auto;
+  background: white;
+  padding: 2%;
+  opacity: 0.6;
+}
+.b1{
+  padding: 3%;
+  cursor: pointer;
+  background: lightblue;
+  border: 4px;
+  position: relative;
+  border-color: black;
+  border-radius: 50%;
+  font: 2%;
+  margin-left: 4vw;
+}
+h1{
+  font-weight: bold;
+  font-style: italic;
+  font-size: 4vw;
+  box-shadow: 10px 5px 5px red;
+}
+.form1{
+  font-size: 2vw;
+  margin-top: 4vw;
+}
+.b2{
+    padding: 3%;
+    cursor: pointer;
+    background: lightblue;
+    border: 4px;
+    position: relative;
+    border-color: black;
+    border-radius: 30%;
+    font: 2%;
+}
+.b2:hover{
+  background: pink;
+}
+.b1:hover{
+  background: pink;
+}
+.img{
+  margin-top: 2vw;
+  margin-left: 4vw;
+}
